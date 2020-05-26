@@ -1,0 +1,4 @@
+mosq/4koma/*
+mosq/*.dat
+mosq/bin/
+.ionide/symbolCache.db
