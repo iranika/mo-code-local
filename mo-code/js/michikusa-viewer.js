@@ -77,8 +77,8 @@ const viewer = (()=>{
       viewer.pageData[pageNum].ImagesUrl.map(img_url => {
         viewer.elem.view.innerHTML += `
         <div class="relative">
-          <img class="overlay en" src="${img_url.replace('ja','en').replace('jpg','gif')}">
-          <img class="overlay zh-cmn-Hant-TW" src="${img_url.replace('ja','zh-tw').replace('jpg','gif')}">
+          <img class="overlay en" src="${img_url.replace('https://mo4koma.iranika.info/4koma/ja','./mo-code-4koma/4koma/en').replace('jpg','gif')}">
+          <img class="overlay zh-cmn-Hant-TW" src="${img_url.replace('https://mo4koma.iranika.info/4koma/ja','./mo-code-4koma/4koma/zh-tw').replace('jpg','gif')}">
           <img class="hidden-image" src="${img_url}">
         </div>
         `
